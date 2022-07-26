@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Home{
+    background-color: #FBC5C5;
+    font-family: 'Arima', cursive;
+}
+.homeNav{
+    background-color: #83dbf1;
+    padding: 10px;
+    margin-bottom: 80px;
+    border-radius:6px;
+}
+.homeContentContainer{
+    color: #194f6d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.leftInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rightInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.homeHeader{
+    margin-left: 15px
+}
+.homeImg{
+    border-radius: 20px;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.homeMessage{
+    width: 870px;
+    font-size: 18px;
+}
+.readMoreBtn{
+    width: 100px;
+    border: transparent;
+    border-radius: 6px;
+    height: 28px;
+    font-family: 'Arima', cursive;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.returnHomeBtn{
+    font-size: 25px;
+    margin-top: 10px;
+    background: transparent;
+    border: transparent;
+}
+.readMoreBtn:hover{
+    transform: scale(102%);
+    background-color: #e6f8fd;
+}
+.readMoreBtn a, .returnHomeBtn a{
+    text-decoration: none;
+}
+.returnHomeBtn a{
+    color: #9289e4;
+}
+.returnHomeBtn:hover, .returnHomeBtn a:hover{
+    color: #6a61bb;
+    transform: scale(101%);
+}
+/* INFO PAGE */
+#InfoPage{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #87d2fa;
+    font-family: 'Arima', cursive;
+}
+.infoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    gap: 50px;
+}
+.article{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 50%;
+    margin-top: 15px;
+    background-color: #fae5e5;
+    padding: 15px;
+    border-radius: 6px;
+}
+.InfoNav{
+    margin-left: 10px;
+}
+.infoHeader{
+    margin-left: 230px;
+    text-decoration: underline;
+}
+
+/* ERROR PAGE */
+#error{
+    font-family: 'Arima', cursive;
+    background-color: #d15555;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px;
+}
+.stopImg{
+    border-radius: 20px;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-top: 20px;
+}
